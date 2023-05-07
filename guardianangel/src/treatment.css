@@ -1,0 +1,52 @@
+.Timage{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.Timage_container{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+}
+.Timage_container_mobile{
+    width: 200px;
+    height: 200px;
+    margin: 30px ;
+}
+
+.Timage_background{
+    left: 0px;
+    top: 10px;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #6B3273;
+    z-index: -1;
+}
+
+.treatment_text{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 1vw;
+    width: 80%;
+}
+.treatment_text_mobile{
+    font-size: 3.5vw;
+}
+
+.treatment_tagline{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.tagline_mobile{
+    padding: 30px 0px;
+    width: 100%;
+}

@@ -1,0 +1,31 @@
+.specialist_text{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1vw;
+    margin-left: 20px;
+}
+
+.arrow{
+    border: 0px;
+    font-size: 25px;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #8b437f;
+
+}
+
+.text_mobile{
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+.nurse_img{
+    width: 100%;
+}
+.nurse_mobile{
+    opacity: 0.3;
+}

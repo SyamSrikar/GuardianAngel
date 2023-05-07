@@ -1,0 +1,91 @@
+.contact_heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.4vw;
+    color: white;
+    line-height: 60px;
+}
+
+.contact_mobile{
+    font-size: 6vw;
+}
+
+.contact_text{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2vw;
+    margin-left: 20px;
+}
+.text_mobile{
+    font-size: 4vw;
+}
+.icon_contact_div{
+    width: 40px;
+    background-color: white;
+    height: 40px;
+    padding: 25px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_mobile{
+    width: 5%;
+    padding: 25px;
+}
+
+.fa{
+    font-size: 40px;
+    color: #8b437f;
+}
+.fa-phone,.fa-envelope{
+    font-size: 30px;
+}
+
+
+input{
+    border-radius: 15px;
+    padding: 20px;
+    width: 40%;
+}
+
+select,textarea{
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.input_container{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.input_container_mobile{
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+    font-size: 3vw;
+}
+.input_mobile{
+    border-radius: 15px;
+    padding: 10px 10px;
+    width: 40%;
+    font-size: 3vw;    
+}
+input::placeholder,select,textarea::placeholder,option{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1vw;
+    text-align: start;
+    align-items: center;
+}
+
+.input_mobile::placeholder,.select_mobile,.textarea_mobile::placeholder,.option_mobile::placeholder{
+    font-size: 3vw;
+}
+
+.submit_button{
+    padding: 5px 15px;
+}
