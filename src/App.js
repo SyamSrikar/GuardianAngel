@@ -8,6 +8,7 @@ import Speciality from './Components/Speciality';
 import Contact from './Components/Contact';
 import Faq from './Components/Faq';
 import Work from './Components/Work';
+import Footer from './Components/Footer';
 import {useEffect,useState} from 'react'
 import Treatment from './Components/Treatment';
 
@@ -43,6 +44,7 @@ useEffect(() => {
       <Faq val={isMobile} />
       <Speciality val={isMobile}/>
       <Contact val={isMobile}/>
+      <Footer val={isMobile}/>
       
       
     </>
